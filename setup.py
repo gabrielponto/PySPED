@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name = "PySPED",
-    version = "0.1.3",
+    version = "0.1.4",
     author = "Aristides Caldeira",
     author_email = 'aristides.caldeira@tauga.com.br',
     test_suite='tests',
-    keywords = ['nfe', 'nfse', 'cte', 'sped', 'edf', 'ecd'],
+    keywords = ['nfe', 'cte', 'sped', 'edf', 'ecd'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Plugins',
@@ -27,7 +27,6 @@ setup(
         'pysped.cte.leiaute',
         'pysped.cte.dacte',
         'pysped.efd',
-        'pysped.nfse',
         'pysped.xml_sped',
         'pysped.ecd',
         'pysped.nf_paulista',
