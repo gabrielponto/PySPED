@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name = "PySPED",
-    version = "0.1.4",
-    author = "Aristides Caldeira",
+    version = "0.1.5",
+    author = "Aristides Caldeira, Gabriel Oliveira",
     author_email = 'aristides.caldeira@tauga.com.br',
     test_suite='tests',
     keywords = ['nfe', 'cte', 'sped', 'edf', 'ecd'],
@@ -40,7 +40,7 @@ setup(
         'pysped.cte.leiaute': ['schema/*/*'],
         'pysped.xml_sped': ['cadeia-certificadora/*/*']
     },
-    url = 'https://github.com/aricaldeira/PySPED',
+    url = 'https://github.com/gabrielponto/PySPED',
     license = 'LGPL-v2.1+',
     description = 'PySPED is a library to implement all requirements of the public system of bookkeeping digital',
     long_description = open('README.rst').read(),

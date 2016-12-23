@@ -122,7 +122,7 @@ class DANFERetrato(Report):
         self.remetente_filhos = None
         self.rodape_primeira_pagina = None
 
-    def on_new_page(self, page, page_number, generator):
+    def on_new_page(self, self2, page, page_number, generator):
         if page_number == 1:
             if self.cabecalho_primeira_pagina is None:
                 self.cabecalho_primeira_pagina = self.band_page_header
